@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- EDIT: your name + a short tagline. This shows up in browser tabs and search results. -->
+  <title>Your Name — Computer Science Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name, Computer Science student at Maryville University." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / HERO ===================== -->
+  <header class="hero">
+    <nav class="nav">
+      <span class="nav__mark">YN</span> <!-- EDIT: your initials -->
+      <div class="nav__links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="resume.pdf">Résumé</a> <!-- EDIT: drop your resume.pdf in the repo root -->
+      </div>
+    </nav>
+
+    <div class="hero__body">
+      <p class="eyebrow">Computer Science · Maryville University</p>
+      <!-- EDIT: your name -->
+      <h1 class="hero__name">Your Name</h1>
+      <!-- EDIT: one or two sentences. What you build, what you're into, what you're looking for. -->
+      <p class="hero__pitch">
+        I build web applications and data tools. Currently focused on
+        full-stack development and looking for a summer 2026 internship.
+      </p>
+
+      <div class="hero__actions">
+        <!-- EDIT: your links. Delete any you don't use. -->
+        <a class="btn btn--solid" href="https://github.com/your-username">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/your-handle">LinkedIn</a>
+        <a class="btn" href="mailto:you@example.com">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <div class="section__head">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__note">Class work and self-guided builds.</p>
+      </div>
+
+      <div class="cards">
+
+        <!-- ---------- PROJECT CARD (copy this whole block for each project) ---------- -->
+        <article class="card">
+          <a class="card__shot" href="https://github.com/your-username/project-one">
+            <!-- EDIT: a screenshot of the project. ~1200×750px looks best. -->
+            <img src="assets/project-one.png" alt="Screenshot of Project One" />
+          </a>
+          <div class="card__body">
+            <h3 class="card__title">Project One</h3>
+            <p class="card__desc">
+              One or two sentences: what it does and what problem it solves.
+            </p>
+            <ul class="tags">
+              <!-- EDIT: skills / tech used -->
+              <li>Python</li>
+              <li>Flask</li>
+              <li>SQLite</li>
+            </ul>
+            <div class="card__links">
+              <a href="https://github.com/your-username/project-one">Code</a>
+              <a href="https://your-username.github.io/project-one">Live demo</a>
+            </div>
+          </div>
+        </article>
+        <!-- ---------- end card ---------- -->
+
+        <article class="card">
+          <a class="card__shot" href="https://github.com/your-username/project-two">
+            <img src="assets/project-two.png" alt="Screenshot of Project Two" />
+          </a>
+          <div class="card__body">
+            <h3 class="card__title">Project Two</h3>
+            <p class="card__desc">
+              One or two sentences: what it does and what problem it solves.
+            </p>
+            <ul class="tags">
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node</li>
+            </ul>
+            <div class="card__links">
+              <a href="https://github.com/your-username/project-two">Code</a>
+              <a href="https://your-username.github.io/project-two">Live demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section section--about">
+      <div class="section__head">
+        <h2 class="section__title">About</h2>
+      </div>
+      <div class="about">
+        <!-- EDIT: 2–4 sentences. Who you are, what you're learning, what you want to work on. -->
+        <p>
+          I'm a Computer Science student at Maryville University. I enjoy
+          turning ideas into working software and I'm building depth in
+          full-stack web development. Outside class I work on personal
+          projects to try out new tools.
+        </p>
+        <p>
+          Interested in internships and collaboration.
+          <a href="mailto:you@example.com">Get in touch</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <!-- EDIT: your name -->
+    <span>© 2026 Your Name</span>
+    <a href="https://github.com/your-username">GitHub</a>
+  </footer>
+
+</body>
+</html>
