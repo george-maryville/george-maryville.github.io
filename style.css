@@ -3,8 +3,8 @@
    whole site. Try any color you like for --accent.
    ========================================================= */
 :root {
-  --accent: #2f5fef;        /* links, buttons, highlights */
-  --ink:    #14161c;        /* main text */
+  --accent: #00e5ff;        /* links, buttons, highlights */
+  --ink:    #e0e0e0;        /* main text */
 
   /* You usually don't need to touch anything below here. */
   --bg:        #ffffff;
